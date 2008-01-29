@@ -1,0 +1,2 @@
+#!/bin/bash
+wget -q http://10.0.5.252/cgi-bin/emapemobile/buscaplaca.cgi?$1 -O - | iconv -f utf8 -t iso8859-1 | sed 's/<[^>]*>//g'

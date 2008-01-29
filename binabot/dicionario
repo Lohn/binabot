@@ -1,0 +1,15 @@
+#!/bin/bash
+#cat dicportugues.pl\?xyz\=2\&search_value\=casa | sed s/\\x0d//g |sed s/\\x09//g | sed '/lblTotalEncontrado/,$!d' | sed '/Este programa/,$d' | sed 's/<BR>/: /' | sed 's/<[^>]*>//g' | sed '/^$/d'
+temp=/var/tmp/
+get=`echo $1 | iconv -f utf8 -t iso8859-1`
+
+wget 'http://www2.pocosdecaldas.com.br/cgi-bin/scripts/broadcast/dicportugues.pl?xyz=2&search_value='$get -O - |
+iconv -f iso8859-1 -t utf8 |
+sed s/\\x0d//g |sed s/\\x09//g |  sed '/lblTotalEncontrado/,$!d' | sed '/Este programa/,$d' | sed 's/<BR>/\n/g'  |  sed 's/<tr>/\n/g'  |sed 's/<br \/>/\n/g' |sed '/^$/d' | sed 's/<[^>]*>//g' | sed '/Clique na palavra ou links dispon/,$d'  >  ${temp}dictmp3.$$
+count=`cat ${temp}dictmp3.$$ | wc -c`
+	if [ $count -eq 0 ] 
+   		then echo "Palavra nao encontrada no dicionario." 
+	else
+   		cat ${temp}dictmp3.$$ | iconv -f utf8 -t iso8859-1
+	fi
+rm -rf  ${temp}dictmp3.$$
