@@ -1,0 +1,1193 @@
+ ### main - 281 : aufgerufen modules::userlist::users - getroster 0 ###
+ ### modulehandler - 33 : no match found - modules/userlist/users.pm - modules::userlist::users ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::testm - gotsmth 1 ###
+ ### modules::testm - 13 : loaded.. ###
+ ### modulehandler - 33 : no match found - modules/testm.pm - modules::testm ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::owner - pls 2 ###
+ ### modules::owner - 236 : loaded ......... aaaaaaa ###
+ ### modulehandler - 33 : no match found - modules/owner.pm - modules::owner ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::userlist::users - got_subscribe 3 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::userlist::users - statuschanged 4 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::userlist::users - statuschanged 5 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::userlist::users - statuschanged 6 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::userlist::users - initroster 7 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::userlist::users - getpass 8 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::userlist::users - setflags 9 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::userlist::users - AddContact 10 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::userlist::users - RemContact 11 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::userlist::users - updatecontactfile 12 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::userlist::users - OwnerSetRealname 13 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::userlist::users - chpass 14 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::userlist::users - SetRealname 15 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::IPCadmin::irc - ircstatus 16 ###
+ ### modulehandler - 33 : no match found - modules/IPCadmin/irc.pm - modules::IPCadmin::irc ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::IPCadmin::irc - privmsg 17 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::IPCadmin::irc - ircconnect 18 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::IPCadmin::irc - ircjoin 19 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::IPCadmin::irc - ircpart 20 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::misc - get_time 21 ###
+ ### modules::misc - 56 : ................
+
+
+ ###
+ ### modulehandler - 33 : no match found - modules/misc.pm - modules::misc ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::misc - get_help 22 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::misc - got_invitation 23 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::misc - got_groupchat_time 24 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::groupchat - part 25 ###
+BLAH
+
+
+ ### modulehandler - 33 : no match found - modules/groupchat.pm - modules::groupchat ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::fromouter - getstatus 26 ###
+ ### modulehandler - 33 : no match found - modules/fromouter.pm - modules::fromouter ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 281 : aufgerufen modules::fromouter - sendmessage 27 ###
+ ### modulehandler - 49 : done.. ###
+ ### main - 52 : success ###
+ ### modulehandler - 154 : Calling modules::testm->init() ###
+ ### modulehandler - 154 : Calling modules::fromouter->init() ###
+ ### modulehandler - 154 : Calling modules::owner->init() ###
+ ### modulehandler - 154 : Calling modules::misc->init() ###
+ ### modulehandler - 154 : Calling modules::groupchat->init() ###
+ ### modulehandler - 154 : Calling modules::IPCadmin::irc->init() ###
+ ### modulehandler - 154 : Calling modules::userlist::users->init() ###
+naodigo - bina .. 
+We are connected to the server...
+ ### main - 81 : AuthSend$VAR1 = [
+  'ok',
+  ''
+];
+ ###
+ ### main - 85 : roster..... $VAR1 = {
+  'ramos@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'luisfig@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => 'luisfig@jabber.pm.sc.gov.br',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'teste@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'cristiano@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'plantao@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'djenane@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => 'subscribe',
+    'subscription' => 'from'
+  },
+  'dilson@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'oliveira@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'aurelia@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'jacques@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'robinson@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'walmire@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'onilsen@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'guilherme@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'lopes@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'cleber@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'lohn@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => 'lohn@jabber.pm.sc.gov.br',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'raphael@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'zuri@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'vera@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'goncalves@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'juliana@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'nilsen@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'ronning@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'gilberto@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => 'gilberto@jabber.pm.sc.gov.br',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'hames@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => 'subscribe',
+    'subscription' => 'from'
+  },
+  'jaison@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'falco@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'telefonista@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'sgtcosta@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'mauricio@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'gilmar@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'costa@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'mariocezar@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'volney@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'copomfns@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'marcio@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => 'subscribe',
+    'subscription' => 'from'
+  },
+  'martins@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'coordenfns@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'kelly@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'andreza@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  },
+  'nair@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'both'
+  },
+  'vigarani@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => 'subscribe',
+    'subscription' => 'from'
+  },
+  'ivan@jabber.pm.sc.gov.br' => {
+    'groups' => [],
+    'name' => '',
+    'ask' => '',
+    'subscription' => 'from'
+  }
+};
+ ###
+ ### modulehandler - 56 : Got msg ... intern: RosterGet ###
+ ### modulehandler - 61 : Got msg, test flags of IPC ###
+ ### modulehandler - 64 : IPC has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->initroster() ###
+ ### contacts debug : initroster ... ###
+ ### contact - 213 : Adding ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: ramos@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: teste@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: luisfig@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: cristiano@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: plantao@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: djenane@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: dilson@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: oliveira@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: aurelia@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: jacques@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: robinson@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: walmire@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: onilsen@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: guilherme@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: lopes@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: cleber@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: lohn@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: raphael@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: zuri@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: vera@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: goncalves@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: juliana@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: nilsen@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: ronning@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: gilberto@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: hames@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: jaison@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: falco@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: telefonista@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: sgtcosta@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: mauricio@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: costa@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: gilmar@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: volney@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: mariocezar@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: copomfns@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: martins@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: marcio@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: coordenfns@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: kelly@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: andreza@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: nair@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: vigarani@jabber.pm.sc.gov.br ###
+ ### contact - 213 : Adding ivan@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 99 : Roster: Adding: ivan@jabber.pm.sc.gov.br ###
+ ### modulehandler - 56 : Got msg ... :  ###
+ ### modulehandler - 61 : Got msg, test flags of aurelia@jabber.pm.sc.gov.br ###
+ ### modulehandler - 64 : aurelia@jabber.pm.sc.gov.br has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->statuschanged() ###
+ ### modules::userlist::contacts - 157 : Trying to change status from aurelia@jabber.pm.sc.gov.br to  () ###
+ ### modules::userlist::contacts - 163 : Changed status from aurelia@jabber.pm.sc.gov.br to  () ###
+ ### modules::userlist::contacts - 190 : Saving ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ivan@jabber.pm.sc.gov.br ###
+===
+Presence
+  From aurelia@jabber.pm.sc.gov.br
+  Type: 
+  Status:  ()
+===
+ ### modulehandler - 56 : Got msg ... :  ###
+ ### modulehandler - 61 : Got msg, test flags of lohn@jabber.pm.sc.gov.br ###
+ ### modulehandler - 64 : lohn@jabber.pm.sc.gov.br has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->statuschanged() ###
+ ### modules::userlist::contacts - 157 : Trying to change status from lohn@jabber.pm.sc.gov.br to  () ###
+ ### modules::userlist::contacts - 163 : Changed status from lohn@jabber.pm.sc.gov.br to  () ###
+ ### modules::userlist::contacts - 190 : Saving ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ivan@jabber.pm.sc.gov.br ###
+===
+Presence
+  From lohn@jabber.pm.sc.gov.br
+  Type: 
+  Status:  ()
+===
+ ### modulehandler - 56 : Got msg ... :  ###
+ ### modulehandler - 61 : Got msg, test flags of mariocezar@jabber.pm.sc.gov.br ###
+ ### modulehandler - 64 : mariocezar@jabber.pm.sc.gov.br has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->statuschanged() ###
+ ### modules::userlist::contacts - 157 : Trying to change status from mariocezar@jabber.pm.sc.gov.br to  () ###
+ ### modules::userlist::contacts - 163 : Changed status from mariocezar@jabber.pm.sc.gov.br to  () ###
+ ### modules::userlist::contacts - 190 : Saving ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ivan@jabber.pm.sc.gov.br ###
+===
+Presence
+  From mariocezar@jabber.pm.sc.gov.br
+  Type: 
+  Status:  ()
+===
+ ### modulehandler - 56 : Got msg ... :  ###
+ ### modulehandler - 61 : Got msg, test flags of plantao@jabber.pm.sc.gov.br ###
+ ### modulehandler - 64 : plantao@jabber.pm.sc.gov.br has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->statuschanged() ###
+ ### modules::userlist::contacts - 157 : Trying to change status from plantao@jabber.pm.sc.gov.br to  () ###
+ ### modules::userlist::contacts - 163 : Changed status from plantao@jabber.pm.sc.gov.br to  () ###
+ ### modules::userlist::contacts - 190 : Saving ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ivan@jabber.pm.sc.gov.br ###
+===
+Presence
+  From plantao@jabber.pm.sc.gov.br
+  Type: 
+  Status:  ()
+===
+ ### modulehandler - 56 : Got msg ... :  ###
+ ### modulehandler - 61 : Got msg, test flags of nilsen@jabber.pm.sc.gov.br ###
+ ### modulehandler - 64 : nilsen@jabber.pm.sc.gov.br has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->statuschanged() ###
+ ### modules::userlist::contacts - 157 : Trying to change status from nilsen@jabber.pm.sc.gov.br to Online (Online) ###
+ ### modules::userlist::contacts - 163 : Changed status from nilsen@jabber.pm.sc.gov.br to Online (Online) ###
+ ### modules::userlist::contacts - 190 : Saving ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ivan@jabber.pm.sc.gov.br ###
+===
+Presence
+  From nilsen@jabber.pm.sc.gov.br
+  Type: 
+  Status: Online ()
+===
+ ### modulehandler - 56 : Got msg ... :  ###
+ ### modulehandler - 61 : Got msg, test flags of juliana@jabber.pm.sc.gov.br ###
+ ### modulehandler - 64 : juliana@jabber.pm.sc.gov.br has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->statuschanged() ###
+ ### modules::userlist::contacts - 157 : Trying to change status from juliana@jabber.pm.sc.gov.br to  () ###
+ ### modules::userlist::contacts - 163 : Changed status from juliana@jabber.pm.sc.gov.br to  () ###
+ ### modules::userlist::contacts - 190 : Saving ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ivan@jabber.pm.sc.gov.br ###
+===
+Presence
+  From juliana@jabber.pm.sc.gov.br
+  Type: 
+  Status:  ()
+===
+ ### modulehandler - 56 : Got msg ... :  ###
+ ### modulehandler - 61 : Got msg, test flags of vera@jabber.pm.sc.gov.br ###
+ ### modulehandler - 64 : vera@jabber.pm.sc.gov.br has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->statuschanged() ###
+ ### modules::userlist::contacts - 157 : Trying to change status from vera@jabber.pm.sc.gov.br to  () ###
+ ### modules::userlist::contacts - 163 : Changed status from vera@jabber.pm.sc.gov.br to  () ###
+ ### modules::userlist::contacts - 190 : Saving ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ivan@jabber.pm.sc.gov.br ###
+===
+Presence
+  From vera@jabber.pm.sc.gov.br
+  Type: 
+  Status:  ()
+===
+ ### modulehandler - 56 : Got msg ... :  ###
+ ### modulehandler - 61 : Got msg, test flags of robinson@jabber.pm.sc.gov.br ###
+ ### modulehandler - 64 : robinson@jabber.pm.sc.gov.br has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->statuschanged() ###
+ ### modules::userlist::contacts - 157 : Trying to change status from robinson@jabber.pm.sc.gov.br to Online (Online) ###
+ ### modules::userlist::contacts - 163 : Changed status from robinson@jabber.pm.sc.gov.br to Online (Online) ###
+ ### modules::userlist::contacts - 190 : Saving ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ivan@jabber.pm.sc.gov.br ###
+===
+Presence
+  From robinson@jabber.pm.sc.gov.br
+  Type: 
+  Status: Online ()
+===
+ ### modulehandler - 56 : Got msg ... :  ###
+ ### modulehandler - 61 : Got msg, test flags of oliveira@jabber.pm.sc.gov.br ###
+ ### modulehandler - 64 : oliveira@jabber.pm.sc.gov.br has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->statuschanged() ###
+ ### modules::userlist::contacts - 157 : Trying to change status from oliveira@jabber.pm.sc.gov.br to away (Auto Status (idle)) ###
+ ### modules::userlist::contacts - 163 : Changed status from oliveira@jabber.pm.sc.gov.br to away (Auto Status (idle)) ###
+ ### modules::userlist::contacts - 190 : Saving ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ivan@jabber.pm.sc.gov.br ###
+===
+Presence
+  From oliveira@jabber.pm.sc.gov.br
+  Type: 
+  Status: Auto Status (idle) (away)
+===
+ ### modulehandler - 56 : Got msg ... :  ###
+ ### modulehandler - 61 : Got msg, test flags of luisfig@jabber.pm.sc.gov.br ###
+ ### modulehandler - 64 : luisfig@jabber.pm.sc.gov.br has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->statuschanged() ###
+ ### modules::userlist::contacts - 157 : Trying to change status from luisfig@jabber.pm.sc.gov.br to Online (Online) ###
+ ### modules::userlist::contacts - 163 : Changed status from luisfig@jabber.pm.sc.gov.br to Online (Online) ###
+ ### modules::userlist::contacts - 190 : Saving ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ivan@jabber.pm.sc.gov.br ###
+===
+Presence
+  From luisfig@jabber.pm.sc.gov.br
+  Type: 
+  Status: Online ()
+===
+ ### modulehandler - 56 : Got msg ... :  ###
+ ### modulehandler - 61 : Got msg, test flags of costa@jabber.pm.sc.gov.br ###
+ ### modulehandler - 64 : costa@jabber.pm.sc.gov.br has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->statuschanged() ###
+ ### modules::userlist::contacts - 157 : Trying to change status from costa@jabber.pm.sc.gov.br to Online (Online) ###
+ ### modules::userlist::contacts - 163 : Changed status from costa@jabber.pm.sc.gov.br to Online (Online) ###
+ ### modules::userlist::contacts - 190 : Saving ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ivan@jabber.pm.sc.gov.br ###
+===
+Presence
+  From costa@jabber.pm.sc.gov.br
+  Type: 
+  Status: Online ()
+===
+ ### modulehandler - 56 : Got msg ... IPC: sendmessage mauricio@jabber.pm.sc.gov.br Ligacao de 6350 (AjG-Recep) para 6245 (BCSv - Sgt Mauricio) em 17:00-25/04/2005<br> ###
+ ### modulehandler - 61 : Got msg, test flags of IPC ###
+ ### modulehandler - 64 : IPC has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::fromouter'}->sendmessage() ###
+ ### main - 303 : Sending message ...  ###
+ ### main - 116 : IPC: sendmessage mauricio@jabber.pm.sc.gov.br Ligacao de 6350 (AjG-Recep) para 6245 (BCSv - Sgt Mauricio) em 17:00-25/04/2005<br> (29) ###
+ ### modulehandler - 56 : Got msg ... IPC: sendmessage mariocesar@jabber.pm.sc.gov.br Ligacao de 6330 (Correged.) para 6426 (CORREGEDORIA-Sgt Mario Cesar) em 17:01-25/04/2005<br> ###
+ ### modulehandler - 61 : Got msg, test flags of IPC ###
+ ### modulehandler - 64 : IPC has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::fromouter'}->sendmessage() ###
+ ### main - 303 : Sending message ...  ###
+ ### main - 116 : IPC: sendmessage mariocesar@jabber.pm.sc.gov.br Ligacao de 6330 (Correged.) para 6426 (CORREGEDORIA-Sgt Mario Cesar) em 17:01-25/04/2005<br> (29) ###
+ ### main - 138 : Got: <message from='mariocesar@jabber.pm.sc.gov.br' to='bina@jabber.pm.sc.gov.br/Bot' type='error' xmlns='jabber:client'><error code='404' type='cancel'><item-not-found xmlns='urn:ietf:params:xml:ns:xmpp-stanzas'/></error><body>Ligacao de 6330 (Correged.) para 6426 (CORREGEDORIA-Sgt Mario Cesar) em 17:01-25/04/2005
+</body></message> ###
+ ### modulehandler - 56 : Got msg ... error: Ligacao de 6330 (Correged.) para 6426 (CORREGEDORIA-Sgt Mario Cesar) em 17:01-25/04/2005
+ ###
+ ### main - 116 : IPC: A: sent message to mariocesar@jabber.pm.sc.gov.br. (29) ###
+ ### modulehandler - 56 : Got msg ... :  ###
+ ### modulehandler - 61 : Got msg, test flags of oliveira@jabber.pm.sc.gov.br ###
+ ### modulehandler - 64 : oliveira@jabber.pm.sc.gov.br has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->statuschanged() ###
+ ### modules::userlist::contacts - 157 : Trying to change status from oliveira@jabber.pm.sc.gov.br to Online (Online) ###
+ ### modules::userlist::contacts - 163 : Changed status from oliveira@jabber.pm.sc.gov.br to Online (Online) ###
+ ### modules::userlist::contacts - 190 : Saving ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ivan@jabber.pm.sc.gov.br ###
+===
+Presence
+  From oliveira@jabber.pm.sc.gov.br
+  Type: 
+  Status: Online ()
+===
+ ### modulehandler - 56 : Got msg ... :  ###
+ ### modulehandler - 61 : Got msg, test flags of plantao@jabber.pm.sc.gov.br ###
+ ### modulehandler - 64 : plantao@jabber.pm.sc.gov.br has flags:  (Needed: ) ###
+ ### modulehandler - 67 : $modulelist{'modules::userlist::users'}->statuschanged() ###
+ ### modules::userlist::contacts - 157 : Trying to change status from plantao@jabber.pm.sc.gov.br to away (Auto Status (idle)) ###
+ ### modules::userlist::contacts - 163 : Changed status from plantao@jabber.pm.sc.gov.br to away (Auto Status (idle)) ###
+ ### modules::userlist::contacts - 190 : Saving ramos@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving luisfig@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving teste@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cristiano@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving plantao@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving djenane@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving dilson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving oliveira@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving aurelia@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jacques@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving robinson@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving walmire@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving onilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving guilherme@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lopes@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving lohn@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving cleber@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving raphael@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving zuri@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vera@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving juliana@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving goncalves@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ronning@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nilsen@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving falco@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving jaison@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving hames@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilberto@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving sgtcosta@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving telefonista@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mauricio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving gilmar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving costa@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving mariocezar@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving volney@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving copomfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving marcio@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving martins@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving coordenfns@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving kelly@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving andreza@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving nair@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving vigarani@jabber.pm.sc.gov.br ###
+ ### modules::userlist::contacts - 190 : Saving ivan@jabber.pm.sc.gov.br ###
+===
+Presence
+  From plantao@jabber.pm.sc.gov.br
+  Type: 
+  Status: Auto Status (idle) (away)
+===
+ERROR: The connection was killed...

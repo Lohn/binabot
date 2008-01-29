@@ -1,0 +1,20 @@
+SOCORRO! Esta é a ajuda do BinaBot!
+Os comandos que o BinaBot entende são:
+
+hora: responde as horas no servidor
+o/quemestaonline: lista os usuários online
+u/usuarios/verusuarios: lista TODOS os usuários cadastrados
+b/busca/buscar <numero>: busca por <numero> nas últimas 300 ligações para os
+ramais cadastrados
+l/lista/listar/list: lista as últimas 10 ligações para os ramais cadastrados 
+t/telefone/listatel <texto>: faz uma busca por <texto> na lista telefônica da central
+d/dic/dicionario <palavra>: faz uma consulta ao dicionário. Se for colocado
+mais de uma palavra ele ignora as seguintes
+placa <XXX0000>: faz uma busca por <XXX0000> no DetranNet
+
+O texto entre <> deve ser substituído pelas opções de busca.
+Dúvidas, reclamações e sugestões dever ser enviadas diretamente para 
+lohn@pm.sc.gov.br
+
+Este programa ainda está em fase de desenvolvimento e é normal apresentar
+alguma instabilidade.

@@ -1,0 +1,57 @@
+              Jabber Perl Bot
+
+Important: You have to read the instructions at the end of this file
+           to run the Bot. (After those # - lines). Without renaming
+           the baseconfig.pl and set variables, the bot will not run.
+###
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+###
+#   Jabber Perl Bot ( http://jpb.sourceforge.net )
+#   Copyright (C) 2001 Kahless
+#                         jid: tehkahless@jabber.org
+#                       email: kahless@users.sourceforge.net
+#                       email: kahless@st-ac.de
+#                         ICQ: 50647169
+###
+# Please visit the JPB Wiki: http://yourhell.com/vqwiki/jpb/Wiki
+# There you can suggest features, upload your modules
+# (and download modules of others.. if someone already uploaded one :) )
+# and don't forget to leave a message in JPBUsers if you are using JPB, thx
+#        (In JPBUsers are also a few example usages of jpb)
+#
+# Write me an email ( kahless@users.sourceforge.net )
+# Or write me a jabber message (tehkahless@jabber.org)
+###
+# Requirements:
+#  Perl (Tested with v5.6.1)
+#  Net::Jabber (Tested with 1.0023)
+#    XML::Stream
+#  IPC::ShareLite (Tested with 0.08)
+##
+
+To run the bot you have to rename baseconfig.pl to config.pl and edit it:
+
+server   :  The Jabberserver to which the bot should connect.
+username :  The Username the bot should use on the jabber server.
+password :  The Password the bot should use for username@server
+			(normally if the login fails, the bot should try
+			 to register this username, but it's not tested)
+owner    :  The owner of the bot (your JID) e.g. yourname@yourserver.com
+			(the pls commands only works for the owner)
+
+
+
+
+

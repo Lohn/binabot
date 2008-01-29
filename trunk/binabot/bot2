@@ -1,0 +1,150 @@
+#!/bin/bash
+diretorio="/home/binabot"
+jabber="$1"
+comando="$2"
+option1="$3"
+option2="$4"
+timestamp=`date +%Y%m%d%H%M%S%N`
+case $comando in
+	"l" | "lista" | "list" | "listar")  if [ ! -z $option1 ]
+                then
+                  echo $option1 > $diretorio/laco.$timestamp
+		else
+		  cat /root/monitor/ramais | grep $jabber | cut -f1 -d: > $diretorio/laco.$timestamp
+                fi
+	    cat $diretorio/laco.$timestamp |
+	    while read ramal 
+	    do	
+		cat /root/monitor/ramais | grep ^$ramal |
+		while read listaderamais 
+		do
+			if test `echo $listaderamais | cut -f3 -d:` = `echo $jabber` 
+			then
+				touch $diretorio/autoriza.$timestamp
+			fi		
+		done
+ 		if test -f $diretorio/autoriza.$timestamp
+		then
+			echo >> $diretorio/temp.$timestamp
+			echo Lista das ultimas 10 ligacoes para o ramal $ramal >> $diretorio/temp.$timestamp
+			tail -n10 /root/monitor/temp/$ramal.in | 
+			while read bilhete 
+			do
+				telefone=`echo $bilhete | cut -c17-26 | sed 's/^0//' | sed 's/^00000//'`
+				ano=`echo $bilhete | cut -c1-4`
+                                mes=`echo $bilhete | cut -c5-6`
+                                dia=`echo $bilhete | cut -c7-8`
+                                hora=`echo $bilhete | cut -c9-10`
+                                minuto=`echo $bilhete | cut -c11-12`
+                                segundo=`echo $bilhete | cut -c13-14`
+			        nomeramal=`cat /root/monitor/listatel | grep ^$telefone | cut -f2 -d:`
+				if test -n "$nomeramal" 
+		                then
+                	          nomeramal=`echo \($nomeramal\)`
+		                else
+                   	          nomeramal="(Desconhecido)"
+		                fi
+
+				echo No dia $dia\/$mes\/$ano as $hora:$minuto:$segundo ligacao do numero $telefone $nomeramal. >> $diretorio/temp.$timestamp
+				rm -rf $diretorio/autoriza.$timestamp
+			done
+		else
+			echo Voce nao esta autorizado a ver a lista de chamadas deste ramal > $diretorio/temp.$timestamp ;
+		fi
+	   done
+#	   rm -rf $diretorio/laco.$timestamp
+	;;
+	"t" | "telefone" | "listatel") busca="$3" ;
+		echo Os resultados encontrados para a busca por $busca foram >  $diretorio/temp.$timestamp
+		cat /root/monitor/listatel | grep -i $busca |
+		while read telefone
+		do
+		echo `echo $telefone | cut -f2 -d:` - `echo $telefone | cut -f1 -d:` >>  $diretorio/temp.$timestamp
+		done
+	;;
+	"b" | "busca" | "buscar") ramal="$4" ;
+	    busca="$3"
+	    if [ ! -z $busca ] 
+            then
+	    if [ ! -z $ramal ]
+                then
+#                 echo $options existe
+                  echo $ramal > $diretorio/laco.$timestamp
+                else
+#                 echo $options - $jabber
+                  cat /root/monitor/ramais | grep $jabber | cut -f1 -d: > $diretorio/laco.$timestamp
+            fi
+            cat $diretorio/laco.$timestamp |
+            while read ramal
+            do
+                cat /root/monitor/ramais | grep ^$ramal |
+                while read listaderamais
+                do
+                        if test `echo $listaderamais | cut -f3 -d:` = `echo $jabber`
+                        then
+                                touch $diretorio/autoriza.$timestamp
+                        fi
+                done
+              if test -f $diretorio/autoriza.$timestamp
+              then
+		echo >> $diretorio/temp.$timestamp
+		echo Os resultados para a busca por $busca nas ligacoes registradas para o Ramal $ramal foram >> $diretorio/temp.$timestamp
+		cat /root/monitor/temp/$ramal.in | cut -c1-26 | grep [0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]$busca |
+		while read bilhete
+                        do
+                                telefone=`echo $bilhete | cut -c17-26 | sed 's/^0//' | sed 's/^00000//'`
+                                ano=`echo $bilhete | cut -c1-4`
+                                mes=`echo $bilhete | cut -c5-6`
+                                dia=`echo $bilhete | cut -c7-8`
+                                hora=`echo $bilhete | cut -c9-10`
+                                minuto=`echo $bilhete | cut -c11-12`
+                                segundo=`echo $bilhete | cut -c13-14`
+                                nomeramal=`cat /root/monitor/listatel | grep ^$telefone | cut -f2 -d:`
+                                if test -n "$nomeramal"
+                                then
+                                  nomeramal=`echo \($nomeramal\)`
+                                else
+                                  nomeramal="(Desconhecido)"
+                                fi
+
+                                echo No dia $dia\/$mes\/$ano as $hora:$minuto:$segundo ligacao do numero $telefone $nomeramal. >> $diretorio/temp.$timestamp
+	       done
+             else
+                        echo Voce nao esta autorizado a ver a lista de chamadas deste ramal > $diretorio/temp.$timestamp ;
+             fi
+          done
+	 else 
+                        echo Voce precisa informar pelo menos um mumero para fazer a busca > $diretorio/temp.$timestamp ;
+	 fi
+	;;
+
+	"ajuda" | "help" | "h" )
+ 		cat ajuda.txt > $diretorio/temp.$timestamp
+	;;
+
+	"hora" | "que hora*" | "time" )
+		echo Agora, em Florianopolis, sao `date +%H:%M`h! > $diretorio/temp.$timestamp
+	;;
+	"o" | "quemestaonline" )
+		/root/quemestaonline | cut -f1 -d"/" | cut -f2 > $diretorio/temp.$timestamp
+	;;
+	"u" | "verusuarios" | "usuarios" )
+		/root/verusuariosjabber > $diretorio/temp.$timestamp
+	;;
+	"placa") busca="$3";
+#		echo $busca > lohn
+		echo Buscando por $busca > $diretorio/temp.$timestamp
+		/home/binabot/veiculobusca $busca >> $diretorio/temp.$timestamp
+#		echo Feito a busca por $busca >> $diretorio/temp.$timestamp
+	;;
+	"d" | "dic" | "dicionario" ) busca="$3";
+                /home/binabot/dicionario $busca  >> $diretorio/temp.$timestamp
+	;;
+	*)
+		echo Comando Incorreto > $diretorio/temp.$timestamp
+	;;
+esac
+/home/binabot/sendmessage.pl $jabber "`cat $diretorio/temp.$timestamp`"
+rm -rf $diretorio/laco.$timestamp
+rm -rf $diretorio/autoriza.$timestamp
+rm -rf $diretorio/temp.$timestamp
