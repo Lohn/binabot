@@ -1,0 +1,1 @@
+Binabot is a shell script that reads the serial port of a PABX, and processes it IM the user with the callerid number and make other things like search a Phone Book and search other calls.
